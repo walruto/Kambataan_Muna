@@ -36,7 +36,7 @@ const Footer = () => {
               {[
                 { name: 'Our Team', id: 'team' },
                 { name: 'Our Impact', id: 'impact' },
-                { name: 'Programs', id: 'programs' },
+                { name: 'Volunteer', id: 'volunteering' },
                 { name: 'About Us', id: 'about' },
                 { name: 'Contact Us', id: 'contact' }
               ].map((link) => (
@@ -52,15 +52,15 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Programs */}
+          {/* Volunteer Opportunities */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Programs</h3>
+            <h3 className="text-lg font-bold mb-4">Get Involved</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>Filipino Language Classes</li>
-              <li>Cultural Dance Workshop</li>
-              <li>Youth Leadership Program</li>
-              <li>Senior Support Group</li>
-              <li>Scholarship Program</li>
+              <li>Community Event Coordinator</li>
+              <li>Youth Mentor</li>
+              <li>Cultural Ambassador</li>
+              <li>Administrative Support</li>
+              <li>Community Outreach</li>
             </ul>
           </div>
 
