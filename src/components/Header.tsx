@@ -30,7 +30,7 @@ const Header = () => {
               <span className="text-blue-900 font-bold text-lg">PH</span>
             </div>
             <div>
-              <span className="text-2xl font-bold text-white group-hover:text-yellow-300 transition-colors duration-300">FilipinOrg</span>
+              <span className="text-2xl font-bold text-white group-hover:text-yellow-300 transition-colors duration-300">Kambataan Muna</span>
               <div className="text-yellow-300 text-xs font-medium">Building Communities Together</div>
             </div>
           </div>
