@@ -6,19 +6,19 @@ const Team = () => {
     {
       name: "Jade Ocompo",
       role: "Executive Director",
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "#",
       bio: "Leading our community initiatives with over 15 years of nonprofit experience."
     },
     {
       name: "Jose Rodriguez",
       role: "Program Manager",
-      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "#",
       bio: "Coordinating cultural programs and educational outreach throughout the region."
     },
     {
       name: "Ana dela Cruz",
       role: "Community Outreach",
-      image: "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "#",
       bio: "Building bridges between Filipino families and local community resources."
     },
     {
