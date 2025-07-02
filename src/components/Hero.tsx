@@ -60,12 +60,12 @@ const Hero = () => {
               </div>
               <div className="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 hover:-translate-y-2 group">
                 <Heart className="w-10 h-10 text-red-400 mx-auto mb-3 group-hover:scale-110 transition-transform duration-300" />
-                <div className="text-3xl font-bold text-white group-hover:text-red-300 transition-colors duration-300">150+</div>
-                <div className="text-sm text-blue-200">Programs</div>
+                <div className="text-3xl font-bold text-white group-hover:text-red-300 transition-colors duration-300">600$</div>
+                <div className="text-sm text-blue-200">Raised</div>
               </div>
               <div className="text-center bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 hover:-translate-y-2 group">
                 <Star className="w-10 h-10 text-yellow-400 mx-auto mb-3 group-hover:scale-110 transition-transform duration-300" />
-                <div className="text-3xl font-bold text-white group-hover:text-yellow-300 transition-colors duration-300">10+</div>
+                <div className="text-3xl font-bold text-white group-hover:text-yellow-300 transition-colors duration-300">1</div>
                 <div className="text-sm text-blue-200">Years Strong</div>
               </div>
             </div>
