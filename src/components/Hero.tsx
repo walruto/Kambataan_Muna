@@ -122,7 +122,7 @@ const Hero = () => {
           </div>
           <div className="relative group overflow-hidden rounded-2xl">
             <img 
-              src="https://i.pinimg.com/564x/ef/b6/1c/efb61c92e7f844822ba4e50ec5cbaf7a.jpg"
+              src="https://www.google.com/imgres?q=spongebob%20crying%20with%20a%20pillow&imgurl=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FEaIOYg0XkAAh38L.jpg&imgrefurl=https%3A%2F%2Fx.com%2Freactjpg%2Fstatus%2F1270593861937762305&docid=kZih3iU5NUghNM&tbnid=s_7ZUNt3un8KpM&vet=12ahUKEwjo5YCSu52OAxUBRTABHRX0CTsQM3oECBUQAA..i&w=749&h=735&hcb=2&ved=2ahUKEwjo5YCSu52OAxUBRTABHRX0CTsQM3oECBUQAA"
               alt="Youth Programs"
               className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
             />
