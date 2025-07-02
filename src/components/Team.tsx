@@ -5,15 +5,15 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Jade Ocompo",
-      role: "Executive Director",
+      role: "Founder",
       image: "#",
-      bio: "Leading our community initiatives with over 15 years of nonprofit experience."
+      bio: "Leading our community initiatives with over 2 years of nonprofit experience."
     },
     {
-      name: "Jose Rodriguez",
-      role: "Program Manager",
+      name: "Walid Ahmed",
+      role: "Digital Presence"",
       image: "#",
-      bio: "Coordinating cultural programs and educational outreach throughout the region."
+      bio: "Web Developer and Social Media."
     },
     {
       name: "Ana dela Cruz",
