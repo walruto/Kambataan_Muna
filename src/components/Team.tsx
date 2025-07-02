@@ -11,7 +11,7 @@ const Team = () => {
     },
     {
       name: "Walid Ahmed",
-      role: "Digital Presence"",
+      role: "Digital Presence",
       image: "#",
       bio: "Web Developer and Social Media."
     },
