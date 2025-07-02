@@ -16,7 +16,7 @@ const Team = () => {
       bio: "Web Developer and Social Media."
     },
     {
-      name: "Ana dela Cruz",
+      name: "Squid Game",
       role: "Community Outreach",
       image: "#",
       bio: "Building bridges between Filipino families and local community resources."
