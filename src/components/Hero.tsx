@@ -76,7 +76,7 @@ const Hero = () => {
               <div className="aspect-square bg-gradient-to-br from-yellow-400 via-red-500 to-blue-600 rounded-3xl p-2 shadow-2xl group-hover:shadow-3xl transition-all duration-500 transform group-hover:scale-105">
                 <div className="w-full h-full bg-gradient-to-br from-white to-gray-100 rounded-2xl flex items-center justify-center overflow-hidden">
                   <img 
-                    src="https://images.pexels.com/photos/1543895/pexels-photo-1543895.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="#"
                     alt="Filipino Community"
                     className="w-full h-full object-cover rounded-xl group-hover:scale-110 transition-transform duration-500"
                   />
