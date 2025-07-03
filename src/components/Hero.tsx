@@ -96,6 +96,7 @@ const Hero = () => {
               alt="Community Events"
               className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
           <div className="relative group overflow-hidden rounded-2xl">
             <img 
@@ -103,6 +104,7 @@ const Hero = () => {
               alt="Education Programs"
               className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-red-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
           <div className="relative group overflow-hidden rounded-2xl">
             <img 
@@ -110,6 +112,7 @@ const Hero = () => {
               alt="Cultural Celebrations"
               className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-yellow-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
           <div className="relative group overflow-hidden rounded-2xl">
             <img 
@@ -117,6 +120,7 @@ const Hero = () => {
               alt="Youth Programs"
               className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
         </div>
       </div>
