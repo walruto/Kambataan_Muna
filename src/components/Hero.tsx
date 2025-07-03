@@ -25,7 +25,7 @@ const Hero = () => {
                 Serving Our Community Since 2024
               </div>
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight animate-fadeInUp">
-                <span className="hover:text-yellow-300 transition-colors duration-300 cursor-default">Put </span>
+                <span className="hover:text-yellow-300 transition-colors duration-300 cursor-default">Put The</span>
                 <span className="block bg-gradient-to-r from-yellow-400 to-yellow-300 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 cursor-default">
                   Youth
                 </span>
