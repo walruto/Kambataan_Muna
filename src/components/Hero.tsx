@@ -92,8 +92,8 @@ const Hero = () => {
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="relative group overflow-hidden rounded-2xl">
             <img 
-              src="https://images.pexels.com/photos/8926547/pexels-photo-8926547.jpeg?auto=compress&cs=tinysrgb&w=400"
-              alt="Community Event"
+              src="/bb0f91cea535bf4cb40eec2f162b0bef.JPEG"
+              alt="Community Events"
               className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
@@ -102,7 +102,7 @@ const Hero = () => {
           </div>
           <div className="relative group overflow-hidden rounded-2xl">
             <img 
-              src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src="/att.RphFG_h8K5D7mil84wal0LM1xI-JlZAkGMIq8bvdMRg.JPG"
               alt="Education Programs"
               className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
             />
@@ -112,7 +112,7 @@ const Hero = () => {
           </div>
           <div className="relative group overflow-hidden rounded-2xl">
             <img 
-              src="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src="/9108ad0377b8c62924ba0078ed842fc7.JPEG"
               alt="Cultural Celebrations"
               className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
             />
@@ -122,7 +122,7 @@ const Hero = () => {
           </div>
           <div className="relative group overflow-hidden rounded-2xl">
             <img 
-              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src="/0cca0d468c118c8abab4e1f68510aa2e.JPEG"
               alt="Youth Programs"
               className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
             />
