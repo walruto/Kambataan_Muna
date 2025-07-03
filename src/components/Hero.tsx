@@ -22,17 +22,17 @@ const Hero = () => {
           <div className="space-y-8 text-white">
             <div className="space-y-6">
               <div className="inline-block bg-yellow-400 text-blue-900 px-4 py-2 rounded-full text-sm font-bold animate-fadeInUp">
-                🇵🇭 Serving Our Community Since 2013
+                Serving Our Community Since 2024
               </div>
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight animate-fadeInUp">
-                <span className="hover:text-yellow-300 transition-colors duration-300 cursor-default">Empowering</span>
+                <span className="hover:text-yellow-300 transition-colors duration-300 cursor-default">Put</span>
                 <span className="block bg-gradient-to-r from-yellow-400 to-yellow-300 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300 cursor-default">
-                  Filipino
+                  Youth
                 </span>
-                <span className="block text-red-400 hover:text-red-300 transition-colors duration-300 cursor-default">Communities</span>
+                <span className="block text-red-400 hover:text-red-300 transition-colors duration-300 cursor-default">First</span>
               </h1>
               <p className="text-xl lg:text-2xl text-blue-100 leading-relaxed animate-fadeInUp hover:text-white transition-colors duration-300">
-                Building bridges between heritage and future through education, culture, and community support.
+                Uplifting the underserved youth of the Philippines.
               </p>
             </div>
 
