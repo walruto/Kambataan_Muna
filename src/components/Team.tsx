@@ -57,7 +57,7 @@ const Team = () => {
           <h2 className="text-5xl font-bold text-white mb-6 hover:text-yellow-300 transition-colors duration-300 cursor-default">Our Team</h2>
           <div className="w-32 h-1 bg-gradient-to-r from-yellow-400 to-yellow-300 mx-auto mb-6"></div>
           <p className="text-xl text-red-100 max-w-3xl mx-auto leading-relaxed hover:text-white transition-colors duration-300">
-            Dedicated individuals working tirelessly to serve and empower our Filipino community with passion and purpose.
+            Dedicated High Schoolers working tirelessly to serve and empower the Filipino youth with passion and purpose.
           </p>
         </div>
 
