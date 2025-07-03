@@ -4,7 +4,7 @@ import { Linkedin, Mail, Twitter } from 'lucide-react';
 const Team = () => {
   const teamMembers = [
     {
-      name: "Jade Ocompo",
+      name: "Jade Ocampo",
       role: "Founder",
       image: "#",
       bio: "Leading our community initiatives with over 2 years of nonprofit experience."
