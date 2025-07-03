@@ -76,8 +76,8 @@ const Hero = () => {
               <div className="aspect-square bg-gradient-to-br from-yellow-400 via-red-500 to-blue-600 rounded-3xl p-2 shadow-2xl group-hover:shadow-3xl transition-all duration-500 transform group-hover:scale-105">
                 <div className="w-full h-full bg-gradient-to-br from-white to-gray-100 rounded-2xl flex items-center justify-center overflow-hidden">
                   <img 
-                    src="https://i.pinimg.com/originals/03/8c/e3/038ce36954ae191fb5543951801d7c7e.jpg"
-                    alt="Filipino Community"
+                    src="/IMG_5206 (2).jpeg"
+                    alt="Community Event - SPED Program"
                     className="w-full h-full object-cover rounded-xl group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
@@ -122,7 +122,7 @@ const Hero = () => {
           </div>
           <div className="relative group overflow-hidden rounded-2xl">
             <img 
-              src="https://www.google.com/imgres?q=spongebob%20crying%20with%20a%20pillow&imgurl=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FEaIOYg0XkAAh38L.jpg&imgrefurl=https%3A%2F%2Fx.com%2Freactjpg%2Fstatus%2F1270593861937762305&docid=kZih3iU5NUghNM&tbnid=s_7ZUNt3un8KpM&vet=12ahUKEwjo5YCSu52OAxUBRTABHRX0CTsQM3oECBUQAA..i&w=749&h=735&hcb=2&ved=2ahUKEwjo5YCSu52OAxUBRTABHRX0CTsQM3oECBUQAA"
+              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
               alt="Youth Programs"
               className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
             />
