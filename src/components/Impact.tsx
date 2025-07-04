@@ -98,25 +98,59 @@ const Impact = () => {
 
         {/* Impact Photo Gallery */}
         <div className="mb-16">
-          <h3 className="text-3xl font-bold text-white text-center mb-12 hover:text-yellow-300 transition-colors duration-300">Impact in Pictures</h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {[
-              "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=300",
-              "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=300",
-              "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=300",
-              "https://images.pexels.com/photos/3184340/pexels-photo-3184340.jpeg?auto=compress&cs=tinysrgb&w=300",
-              "https://images.pexels.com/photos/3184341/pexels-photo-3184341.jpeg?auto=compress&cs=tinysrgb&w=300",
-              "https://images.pexels.com/photos/3184342/pexels-photo-3184342.jpeg?auto=compress&cs=tinysrgb&w=300"
-            ].map((image, index) => (
-              <div key={index} className="relative group overflow-hidden rounded-xl">
-                <img 
-                  src={image}
-                  alt={`Impact ${index + 1}`}
-                  className="w-full h-32 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <h3 className="text-3xl font-bold text-white text-center mb-12 hover:text-yellow-300 transition-colors duration-300">Our Work at Teresa Elementary School</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="relative group overflow-hidden rounded-2xl lg:col-span-2">
+              <img 
+                src="/IMG_5242.jpeg"
+                alt="Certificate of Appreciation from Teresa Elementary School"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <span className="text-white text-lg font-semibold">Certificate of Appreciation</span>
               </div>
-            ))}
+            </div>
+            
+            <div className="relative group overflow-hidden rounded-2xl">
+              <img 
+                src="/IMG_5214.JPEG"
+                alt="Joy of Giving Event Setup"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-red-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                <span className="text-white text-sm font-semibold">Joy of Giving Event</span>
+              </div>
+            </div>
+            
+            <div className="relative group overflow-hidden rounded-2xl">
+              <img 
+                src="/IMG_5192.jpeg"
+                alt="Students receiving slippers and supplies"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-yellow-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                <span className="text-white text-sm font-semibold">Distributing Supplies</span>
+              </div>
+            </div>
+            
+            <div className="relative group overflow-hidden rounded-2xl lg:col-span-2">
+              <img 
+                src="/IMG_2540.JPG"
+                alt="Colorful slippers arranged for distribution"
+                className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <span className="text-white text-lg font-semibold">Slippers for Students</span>
+              </div>
+            </div>
+          </div>
+          
+          <div className="text-center mt-8">
+            <p className="text-blue-100 text-lg max-w-3xl mx-auto leading-relaxed">
+              Our recent "Joy of Giving" event at Teresa Elementary School provided essential supplies including slippers, 
+              school materials, and meals to students in need. This initiative demonstrates our commitment to directly 
+              supporting Filipino youth education and wellbeing.
+            </p>
           </div>
         </div>
 
