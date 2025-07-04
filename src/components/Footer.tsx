@@ -15,12 +15,12 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-red-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">FO</span>
+                <span className="text-white font-bold">KM</span>
               </div>
-              <span className="text-xl font-bold">FilipinOrg</span>
+              <span className="text-xl font-bold">Kambataan Muna</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Empowering Filipino communities through cultural preservation, education, and unity.
+              Empowering Filipino youth through education, community support, and cultural preservation.
             </p>
             <div className="flex items-center space-x-2 text-gray-300">
               <span>Made with</span>
@@ -36,7 +36,6 @@ const Footer = () => {
               {[
                 { name: 'Our Team', id: 'team' },
                 { name: 'Our Impact', id: 'impact' },
-                { name: 'Volunteer', id: 'volunteering' },
                 { name: 'About Us', id: 'about' },
                 { name: 'Contact Us', id: 'contact' }
               ].map((link) => (
@@ -52,15 +51,15 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Volunteer Opportunities */}
+          {/* Our Programs */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Get Involved</h3>
+            <h3 className="text-lg font-bold mb-4">Our Programs</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>Community Event Coordinator</li>
-              <li>Youth Mentor</li>
-              <li>Cultural Ambassador</li>
-              <li>Administrative Support</li>
+              <li>Educational Support</li>
               <li>Community Outreach</li>
+              <li>Cultural Preservation</li>
+              <li>Youth Development</li>
+              <li>School Partnerships</li>
             </ul>
           </div>
 
@@ -70,7 +69,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-blue-400" />
-                <span className="text-gray-300">info@filipinorg.com</span>
+                <span className="text-gray-300">info@kambataanmuna.org</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-red-400" />
@@ -78,7 +77,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-yellow-400 mt-1" />
-                <span className="text-gray-300">123 Community Drive<br />Filipintown, CA 90210</span>
+                <span className="text-gray-300">Serving Filipino communities<br />across the Philippines</span>
               </div>
             </div>
           </div>
@@ -87,7 +86,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400">
-            © 2024 FilipinOrg. All rights reserved. 🇵🇭
+            © 2024 Kambataan Muna. All rights reserved. 🇵🇭
           </div>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <button className="text-gray-400 hover:text-white transition-colors">

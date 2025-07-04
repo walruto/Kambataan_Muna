@@ -37,7 +37,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            {['team', 'impact', 'volunteering', 'about', 'contact'].map((item) => (
+            {['team', 'impact', 'about', 'contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
@@ -46,8 +46,7 @@ const Header = () => {
                 {item === 'team' ? 'Our Team' : 
                  item === 'impact' ? 'Our Impact' : 
                  item === 'about' ? 'About Us' :
-                 item === 'contact' ? 'Contact Us' : 
-                 item === 'volunteering' ? 'Volunteer' : item}
+                 item === 'contact' ? 'Contact Us' : item}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-yellow-400 group-hover:w-full transition-all duration-300"></span>
               </button>
             ))}
@@ -66,7 +65,7 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden absolute top-20 left-0 right-0 bg-blue-900 shadow-lg border-t border-blue-800 animate-fadeIn">
             <nav className="flex flex-col py-4">
-              {['team', 'impact', 'volunteering', 'about', 'contact'].map((item) => (
+              {['team', 'impact', 'about', 'contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -75,8 +74,7 @@ const Header = () => {
                   {item === 'team' ? 'Our Team' : 
                    item === 'impact' ? 'Our Impact' : 
                    item === 'about' ? 'About Us' :
-                   item === 'contact' ? 'Contact Us' : 
-                   item === 'volunteering' ? 'Volunteer' : item}
+                   item === 'contact' ? 'Contact Us' : item}
                 </button>
               ))}
             </nav>
